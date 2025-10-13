@@ -22,12 +22,13 @@ position: relative; /* Required for absolute positioning within it */
   display: block;
   text-align: center;
   line-height: 100px; /* Vertically center the text */
+}
 .box1 
   {position: relative;
   top: 10px;
   left: 10px;
   
-  .box1:hover 
+  .box1:hover {
   background-color: #FFB6A3;
 }}
 
@@ -45,10 +46,10 @@ position: relative; /* Required for absolute positioning within it */
   height: 100px;
   display: block;
   text-align: center;
-  line-height: 100px; /* Vertically center the text */ .box2 
-  position: absolute;
+  line-height: 100px; /* Vertically center the text */} .box2 
+  {position: absolute;
   bottom: 20px;
-  right: 20px;
+  right: 20px;}
   .box2 {
   position: absolute;
   bottom: 20px;
@@ -58,7 +59,7 @@ position: relative; /* Required for absolute positioning within it */
 }
 }
 
-}
+
 
  .box3 {
   border: 2px solid #007BFF;
@@ -71,9 +72,10 @@ position: relative; /* Required for absolute positioning within it */
   height: 100px;
   display: block;
   text-align: center;
-  line-height: 100px; /* Vertically center the text */ .box3 
+  line-height: 100px; /* Vertically center the text */
+   .box3
   position  fixed
-  top: 20px;
+  {top: 20px;
   left: 20px;
 .box3 {
   position: fixed;
@@ -82,4 +84,4 @@ position: relative; /* Required for absolute positioning within it */
 }
 .box3:hover {
   background-color: #A3BAFF;
-}}
+}}}
